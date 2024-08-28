@@ -1,0 +1,33 @@
+.task-form {
+  background: #737272;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(237, 9, 180, 0.657);
+}
+
+.task-form input {
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 20px);
+  border: 2px solid #b5d9f2;
+  box-shadow: 0 4px 8px rgba(9, 184, 237, 0.657);
+  border-radius: 4px;
+}
+.task-form h2{
+  color: aliceblue;
+}
+
+.task-form button {
+  padding: 10px 20px;
+  background-color: hsl(108, 41%, 88%);
+  box-shadow: 0 4px 8px rgba(9, 184, 237, 0.657);
+  color: #3a2222;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task-form button:hover {
+  background-color: hsl(183, 74%, 56%);
+}
